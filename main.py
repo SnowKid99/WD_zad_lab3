@@ -13,7 +13,7 @@ print(lista1)
 lista2=[x for x in lista1 if x%2==0]
 print(lista2)
 
-#zad4
+#zad5
 def pole_trapezu(a,b,h):
     pole=((a+b)*h)/2
     if pole<=0:
