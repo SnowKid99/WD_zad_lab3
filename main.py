@@ -25,3 +25,16 @@ def pole_trapezu(a,b,h):
 print(pole_trapezu(3,8,2))
 print(pole_trapezu(6,10,4))
 print(pole_trapezu(3,7,5))
+
+#zad4
+def prostokatny(a,b,c):
+    if a**2+b**2==c**2:
+        return True
+    elif c**2-a**2==b**2:
+        return True
+    elif c**2-b**2==a**2:
+        return True
+    else:
+        return False
+print(prostokatny(3,4,5))
+print(prostokatny(3,6,7))
